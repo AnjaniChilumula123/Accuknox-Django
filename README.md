@@ -44,6 +44,17 @@ https://www.postman.com/technical-administrator-80202700/workspace/accuknox-djan
     ```sh
    pip install -r requirements.txt
 
+![Screenshot 2024-06-11 192114](https://github.com/AnjaniChilumula123/Accuknox-Django/assets/93757236/ae9d39e3-c960-4c2d-993f-58bdfd2a7e0f)
+
+use the token in the headers :
+
+   ### Key : Authentication
+   ### Value : 'Bearer [access token]'
+
+Refresh token is used to refresh the access token, which expire for every 5 minutes
+   ### 
+
+
 ## Using Docker
 
 1. Build the Docker image:
